@@ -20,6 +20,11 @@ body {
 	
 }
 
+.welcome { padding-left: 15px;
+
+}
+
+
 .content {
     margin-left: 40px;
 
