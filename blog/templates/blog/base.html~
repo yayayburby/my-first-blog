@@ -13,10 +13,12 @@
     </head>
     <body>
     <div class="page-header">
-        <h1><a href="/">Sarah's Blog</a></h1>
+        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+	<h1><a href="/">Sarah's Blog</a></h1>
+        
     </div>
     <div class="welcome">
-        <h2><a href="/">Sarah's Blog</a></h2>
+        <h2><a href="/">This is my blog, there are many like it, but this one is mine</a></h2>
     </div>
     <div class="content container">
         <div class="row">
